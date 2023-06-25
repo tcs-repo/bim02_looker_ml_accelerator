@@ -1,5 +1,5 @@
 
-view: bmi02_looker_ml_acc_dataset {
+view: bim02_looker_ml_acc_dataset {
 
   sql_table_name: `ai-accelerators-dai.Looker_ML_Accelerator.BIM02_Looker_ML_Acc_dataset`
     ;;
@@ -12,9 +12,6 @@ view: bmi02_looker_ml_acc_dataset {
     sql: ${TABLE}.bounces ;;
   }
 
-  # A measure is a field that uses a SQL aggregate function. Here are defined sum and average
-  # measures for this dimension, but you can also add measures of many different aggregates.
-  # Click on the type parameter to see all the options in the Quick Help panel on the right.
 
   measure: total_bounces {
     type: sum
